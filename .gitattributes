@@ -1,0 +1,7 @@
+# Weights are NOT committed to this repo — they live on a RunPod network volume.
+# This file is kept as a reminder; add LFS rules only if you commit sample
+# weights for local testing.
+#
+# weights/*.safetensors filter=lfs diff=lfs merge=lfs -text
+# weights/*.pt           filter=lfs diff=lfs merge=lfs -text
+ 
